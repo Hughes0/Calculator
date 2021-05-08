@@ -15,7 +15,7 @@ function operate(operation, a, b) {
         return a * b
     } else if (operation == "divide") {
         if (b == 0) {
-            return "No division by 0";
+            return 0;
         }
         return a / b
     };
